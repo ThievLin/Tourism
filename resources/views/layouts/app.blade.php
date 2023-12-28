@@ -32,6 +32,8 @@
     <meta name="msapplication-config" content="{{ asset('i/icons/browserconfig.xml') }}">
     <meta name="theme-color" content="#333">
     <link rel="stylesheet" type="text/css" href="{{ asset(mix('dist/css/app.css')) }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
     @hasSection('canonical')<link rel="canonical" href="@yield('canonical')">@endif
     <script src="{{ asset(mix('dist/js/app.js')) }}"></script>
     @if (env('APP_ENV') !== 'local' && config('settings.analytics_id') !== null)

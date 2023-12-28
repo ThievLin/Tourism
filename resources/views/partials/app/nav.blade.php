@@ -36,5 +36,13 @@
                 @endforeach
             </div>
         </div>
+        <p class="phone">
+            <i class="fas fa-phone-volume"></i> 0973362212
+        </p>
+        <ul class="link">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+        </ul>
     </div>
 </nav>

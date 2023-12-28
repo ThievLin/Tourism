@@ -3,6 +3,8 @@
 @import "app/_overrides";
 @import "app/_icons";
 @import "app/_utilities";
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
 
 iframe {
   border: 0;
@@ -14,3 +16,4 @@ iframe {
   background: -webkit-linear-gradient(to right, $primary, darken($primary, 5%));
   background: linear-gradient(to right, $primary, darken($primary, 5%));
 }
+
